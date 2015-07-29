@@ -36,7 +36,7 @@ running the zeroMQ_test.js file found in the *tests* directory using node.
               
         server.bindSync( 'tcp://' + ip + ':' + port );
         
-        server.clients = {}
+        server.clients = {} 
         
         server.output = function( path, typetags, values ) {
           this.send( JSON.stringify({ 'key': path, 'values':values }) )

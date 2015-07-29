@@ -1,0 +1,28 @@
+{
+  "name": "interface.server.zmq",
+  "version": "1.0.0",
+  "description": "zmq for interface.server",
+  "main": "ZMQ.js",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "zmq": "^2.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charlieroberts/interface.server.zmq.git"
+  },
+  "keywords": [
+    "zmq",
+    "interface.server"
+  ],
+  "author": "Charlie Roberts <charlie@charlie-roberts.com> (http://www.charlie-roberts.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlieroberts/interface.server.zmq/issues"
+  },
+  "homepage": "https://github.com/charlieroberts/interface.server.zmq"
+}
